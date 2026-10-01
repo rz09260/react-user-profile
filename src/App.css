@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+.app-layout {
+  padding: 40px;
+}
+
+.app-layout h1 {
+  text-align: center;
+}
+
+.profile-column {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.profile-card {
+  width: 300px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.online-badge {
+  color: green;
+  font-weight: bold;
+}
+
+.offline-badge {
+  color: gray;
+  font-weight: bold;
+}
+
+.socials {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.socials a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
